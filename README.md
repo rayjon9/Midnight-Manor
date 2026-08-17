@@ -3,7 +3,7 @@
 ## Members
 
 - lee-anne
-- Member 2
+- Chong Jae Ron
 - Member 3
 - Member 4
 
