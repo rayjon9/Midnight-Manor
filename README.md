@@ -2,7 +2,7 @@
 
 ## Members
 
-- Member 1
+- Chong Jae Ron
 - Member 2
 - Member 3
 - Member 4
