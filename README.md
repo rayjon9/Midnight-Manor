@@ -1,9 +1,8 @@
 # j1-summary-project-2026
 
 ## Members
-
+- Chong Jae Ron
 - Elgin
-- Member 2
 - Member 3
 - Member 4
 
