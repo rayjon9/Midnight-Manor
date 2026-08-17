@@ -2,8 +2,8 @@
 
 ## Members
 
+- lee-anne
 - Chong Jae Ron
-- Member 2
 - Member 3
 - Member 4
 
