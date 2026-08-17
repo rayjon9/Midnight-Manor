@@ -5,7 +5,7 @@
 - natasia
 - lee-anne
 - Chong Jae Ron
-- Member 4
+- elgin
 
 # This is a J1 Summary Project
 - It is a simple MUD game about ...
