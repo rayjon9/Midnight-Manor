@@ -5,7 +5,7 @@ class Game:
         player = Player()
         player.spawn(current_room.spawn_x, current_room.spawn_y)
         pass
-    def execute()
+    def execute():
         pass
     def show_room(current_room):
         print(current_room)
