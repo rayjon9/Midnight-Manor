@@ -7,16 +7,15 @@ The main game loop.
 import game
 import data
 
-
 if __name__ == "__main__":
     mud = game.Game()
     mud.welcome()
     player = data.create_player()
     mud.add_player(player)
     while not mud.is_gameover():
-        game.show_room_desc()
-        game.show_player_options()
-        choice = game.get_player_option() 
+        game.show_room()
+        game.show_player_choice()
+        choice = game.get_player_choice() 
         mud.execute(choice)
         data.display(mud.status())
     if mud.is_gameover():

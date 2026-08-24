@@ -34,6 +34,7 @@ class Player:
         self.x = None
         self.y = None
         self.inv = []
+        self.hp = 25
     def spawn(self, x, y):
         self.x = x
         self.y = y
