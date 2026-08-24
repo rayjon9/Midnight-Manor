@@ -5,7 +5,7 @@ The main game loop.
 # By convention, import statements go at the top of the file
 
 import game
-
+import data
 
 if __name__ == "__main__":
     mud = game.Game()
@@ -17,6 +17,7 @@ if __name__ == "__main__":
         game.show_player_choice()
         choice = game.get_player_choice() 
         mud.execute(choice)
+        data.display(mud.status())
     if mud.is_gameover():
         result = game.win_or_lose()
     game.epilogue(result)
