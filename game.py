@@ -96,7 +96,7 @@ foyer = Room([["M","M","M","M","M","M","M","M"],
         ["M","M","M","M","M","M","M","M"],
         ["M","M","M","M","M","M","M","M"]])
 foyer.set_starting_point(0, 4)
-living = Room([["M","M","M","E","E","M","M","M"],
+ballroom = Room([["M","M","M","E","E","M","M","M"],
         [".",".",".",".",".",".",".","."],
         [".",".",".",".",".",".",".","."],
         [".",".",".",".",".",".",".","."],
@@ -104,8 +104,8 @@ living = Room([["M","M","M","E","E","M","M","M"],
         [".",".",".",".",".",".",".","."],
         [".",".",".",".",".",".",".","."],
         ["M","M","M","M","M","M","M","M"]])
-living.set_starting_point(0, 4)
-foyer.next_room = living
+ballroom.set_starting_point(0, 4)
+foyer.next_room = ballroom
 current_room = foyer
 
 player = Player()
