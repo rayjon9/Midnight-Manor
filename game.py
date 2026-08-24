@@ -1,12 +1,16 @@
-# class Game:
-#     def welcome():
-
-#     def add_player(player):
-
-#     def show_room(room):
-#         print(room)
-#     def show_player_options():
-game = True
+class Game:
+    def welcome():
+        pass
+    def add_player(player):
+        player = Player()
+        player.spawn(current_room.spawn_x, current_room.spawn_y)
+        pass
+    def execute()
+        pass
+    def show_room(current_room):
+        print(current_room)
+    def show_player_choices():
+        pass
 
 class Room:
     def __init__(self, layout):
@@ -79,7 +83,7 @@ class Player:
             else:
                 print("Move not available!")
         elif dcs.upper() == "E":
-            
+            get_inv()
         else:
             print("Choice does not exist!")
 
@@ -106,4 +110,9 @@ current_room = foyer
 
 player = Player()
 player.spawn(current_room.spawn_x, current_room.spawn_y)
-#player.get_coords()
+
+#temporary test
+while game:
+    current_room.get_layout()
+    player.choice()
+    
