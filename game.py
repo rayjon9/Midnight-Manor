@@ -11,6 +11,14 @@ class Game:
         print(current_room)
     def show_player_choices():
         pass
+    def is_gameover():
+        pass
+    
+def win_or_lose():
+    pass
+
+def epilogue(result):
+    pass
 
 class Room:
     def __init__(self, layout):
