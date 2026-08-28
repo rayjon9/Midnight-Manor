@@ -126,7 +126,7 @@ class Room:
             print("")
         if game.current_room != game.dark_corridor:
             game.ph_encounter = random.randint(4, 7)
-            game.add_monster(Monster("Phantom", 7 + 3 * game.room_multi, -1 + 3 * game.room_multi))
+            game.add_monster(Monster("Phantom", 7 + 3 * game.room_multi, 1 + 1 * game.room_multi))
 
 class Player:
     def __init__(self):
@@ -276,11 +276,13 @@ while game.is_not_over:
             game.player.choice_fight()
             if game.monster.hp <= 0:
                 game.ph_encounter = random.randint(4, 7)
-                game.add_monster(Monster("Phantom", 7 + 3 * game.room_multi, 1 + 2 * game.room_multi))
+                game.add_monster(Monster("Phantom", 7 + 3 * game.room_multi, 1 + 1 * game.room_multi))
+                time.sleep(1)
                 print("Fight over.")
                 print("")
                 game.player.lvl_up()
                 game.player.item_chance()
+                time.sleep(1)
                 print(f"You levelled up! Your attack is now {game.player.atk} and your maximum health is now {game.player.max_hp}!")
                 print("")
     if game.current_room == game.attic:
