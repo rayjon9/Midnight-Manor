@@ -19,6 +19,6 @@ if __name__ == "__main__":
         mud.execute(choice)
         data.display(mud.status())
     if mud.is_gameover():
-        result = game.win_or_lose()
+        result = game.win()
     game.epilogue(result)
     
