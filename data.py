@@ -27,3 +27,4 @@ def display(status: dict):
     for i, option in enumerate(status["options"], start=1):
         print(f"{i} - {option}")
     print("------------------------------------------------------------")
+
